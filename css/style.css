@@ -1,0 +1,643 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-11-04 10:28:03
+ * @version $Id$
+ */
+ html,body{
+ 	height: 100%;
+ }
+.wl_navbox{
+	height: 120px;
+    background: #f5f5f5
+}
+.wl_nav{
+	width: 700px;
+	height: 119px;
+	margin:0 auto;
+	background: url(../images/login.png) no-repeat center left;
+	padding:1px 0 0 280px;
+}
+.wl_navlist{
+	margin-top: 59px;
+}
+.wl_navlist li{
+	float: left;
+	width: 70px;
+	text-align: center;
+	height: 36px;
+	line-height: 36px;
+	margin-left: 6px;
+	cursor: pointer;
+	position: relative;
+}
+.wl_navlist li a{
+	color: #666666;
+	font-size: 14px;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.wl_navlist li:hover{
+	border: 1px solid #0099e6;
+	width: 68px;
+	height: 34px;
+	line-height: 34px;
+}
+.wl_navlist li:hover a{
+	color: #0099e6;
+}
+
+.wl_navlist li .wl_navdown{
+	width: 120px;
+	border: 2px solid #cccccc;
+	position: absolute;
+	text-align: center;
+	top: 41px;
+	background: #ffffff;
+	left: 50%;
+	margin-left: -60px;
+	padding-top: 12px;
+	display: none;
+}
+.wl_navlist li .wl_navdown a{
+	color: #333333;
+}
+.wl_navlist li .wl_navdown a:hover{
+	color: #0099e5;
+}
+.wl_navdown span{
+	width: 88px;
+	height: 8px;
+	background: url(../images/1.png) no-repeat;
+	position: absolute;
+	top: -8px;
+	display: block;
+	left: 50%;
+	margin-left: -44px;
+}
+.wl_navlist li .wl_navdown a{
+	display: block;
+	margin-bottom: 14px;
+	font-size: 12px;
+	line-height:12px;
+}
+.wl_banner{
+    height: 500px;
+    background:url("../images/banner.png") no-repeat center;
+}
+.wl_main{
+	width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.wl_article{
+    margin: 40px 0 10px 0;
+    overflow: hidden;
+}
+.wl_article h1{
+    padding-left: 10px;
+    background:url("../images/h1bj.png") no-repeat left center;
+    font-size: 20px;
+    color: #000000;
+}
+.wl_articlpart{
+    margin-top: 26px;
+    overflow: hidden;
+}
+.wl_articlpart .wl_articlpart_img{
+    width: 470px;
+    height: 310px;
+    float: left;
+    margin-left: 10px;
+}
+.wl_articlpart .wl_articlpart_font{
+    width: 486px;
+    height: 312px;
+    float: left;
+    margin-left: 10px;
+}
+.wl_articlpart .wl_articlpart_font h2{
+    font-size: 18px;
+    color: #000;
+}
+.wl_articlpart .wl_articlpart_font h3{
+    height: 66px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 16px;
+    color: #666666;
+}
+.wl_atclfont_list{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.wl_atclfont_list li{
+    margin-bottom: 26px;
+    overflow: hidden;
+}
+.wl_atclfont_list .end{
+    margin-bottom: 0;
+}
+.wl_atclfont_list li a{
+    color: #333333;
+    font-size: 14px;
+    line-height: 14px;
+}
+.wl_atclfont_list li a em{
+    width: 6px;
+    height: 5px;
+    background: url("../images/bj02.png") 0 -5px no-repeat;
+    display: inline-block;
+    float: left;
+    margin: 4px 6px 0 0;
+}
+.wl_atclfont_list li a p{
+    float: left;
+}
+.wl_articlpart_font_mor{
+    text-align: right;
+    color: #0099e6;
+    font-size: 12px;
+    display: block;
+}
+.wl_atclfont_list li:hover a{
+    color: #0099e5;
+}
+.wl_atclfont_list li:hover a em{
+    background-position: 0 0;
+}
+.wl_cortlist{
+    overflow: hidden;
+    margin-top: 26px;
+}
+.wl_cortlist li{
+    float: left;
+    overflow: hidden;
+    margin-right: 62px;
+}
+.wl_cortlist li a{
+    width: 80px;
+    height: 116px;
+    display: block;
+    color: #333333;
+    text-align: center;
+}
+.wl_cortlist li a span{
+    width: 80px;
+    height: 80px;
+    display: block;
+    background:url("../images/bj03.png") 0 -82px no-repeat;
+    text-align: center;
+    line-height: 80px;
+}
+.wl_cortlist li a span img{
+    vertical-align: middle;
+}
+.wl_cortlist li a p{
+    margin-top: 18px;
+    font-size: 14px;
+}
+.wl_cortlist .end{
+    margin-right: 0;
+}
+.wl_cortlist li:hover a span{
+    background-position: 0 0;
+}
+.wl_cortlist li:hover a{
+    color: #0099e6;
+}
+.wl_conter{
+    overflow: hidden;
+    margin: 56px 0 76px;
+}
+.wl_conter_lft{
+    width: 418px;
+    height: 250px;
+    float: left;
+}
+.wl_conter h1{
+    padding-left: 10px;
+    background:url("../images/h1bj.png") no-repeat left center;
+    font-size: 20px;
+    color: #000000;
+}
+.wl_contlist{
+    margin: 26px 0 0 10px;
+}
+.wl_contlist li{
+    overflow: hidden;
+    margin-bottom:20px;
+}
+.wl_contlist .end{
+    margin-bottom: 0;
+}
+.wl_contlist li a em{
+    width: 6px;
+    height: 5px;
+    display: block;
+    background: url("../images/bj04.png") 0 -5px no-repeat;
+    float: left;
+    margin:7px 10px 0 0;
+}
+.wl_contlist li a p{
+    float: left;
+    font-size: 14px;
+    width: 390px;
+    color: #333333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.wl_contlist_aj{
+    display: block;
+    text-align: right;
+    color: #999999;
+    font-size: 12px;
+    margin-top: 6px;
+}
+.wl_conter_rih{
+    width:500px;
+    height: 250px;
+    float: left;
+    margin-left: 62px;
+}
+.wl_cotertit{
+    height: 28px;
+    margin: 24px 0 0 10px;
+    border-bottom: 1px solid #e6e6e6;
+    padding-left: 6px;
+}
+.wl_cotertit li{
+    float: left;
+    color: #333333;
+    margin-right:24px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 100%;
+}
+.wl_cotertit .active{
+    color: #0099e6;
+    border-bottom: 4px solid #0099e6;
+}
+.wl_coterbox{
+    height: 146px;
+    margin: 20px 10px 0;
+}
+.wl_coterbblist h3{
+    font-size: 16px;
+    color: #000;
+}
+.wl_coterbblist p{
+    color: #666666;
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 1.8;
+}
+/****************************底部****************************/
+.wl_footerbox{
+    height: 210px;
+    background: #2f2f2f;
+}
+.wl_footer{
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.wl_footlogo{
+    width:122px;
+    height: 106px;
+    display: block;
+    background:url("../images/logo1.png") no-repeat;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.wl_footfont{
+    width: 632px;
+    height: 132px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.wl_footfontlist{
+    width: 190px;
+    overflow: hidden;
+    text-align: left;
+    float: left;
+    margin-right: 30px;
+}
+.wl_footfontlist h1{
+    font-size: 14px;
+    color: #ffffff;
+}
+.wl_footfontlist a{
+    display: block;
+    color: #b2b2b2;
+    font-size: 12px;
+    margin-top: 12px;
+}
+.wl_footfontlist a:hover{
+    color: #ffffff;
+    text-decoration:underline;
+}
+.wl_footer_bt{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    color: #ffffff;
+    font-size: 12px;
+}
+/******************集团新闻-新闻详情************************/
+.wl_aticle{
+    width:980px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.wl_aticle_title{
+    font-size: 12px;
+    padding-left: 20px;
+    background:url("../images/bj05.png") no-repeat center left;
+}
+.wl_aticle_title a{
+    color: #666666;
+}
+.wl_aticle_title .active{
+    color: #3688ce;
+}
+.wl_newsatic{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 34px;
+}
+.wl_newsatic h1{
+    font-size: 19px;
+    color: #000000;
+    text-align: center;
+}
+.wl_newsatic h2{
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    line-height: 36px;
+    border-bottom: 1px solid #cccccc;
+    margin-top: 20px;
+}
+.wl_newsatiist_box{
+    height: 370px;
+    margin-top: 30px;
+    position: relative;
+}
+.wl_newsatiist_bim{
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.wl_newsatiist_bli{
+    overflow: hidden;
+    height:100%;
+}
+.wl_newsatiist_bli li{
+    float: left;
+    width: 600px;
+    height: 100%;
+}
+.wl_newsatiist_bli li a img{
+    width: 100%;
+    height: 100%;
+}
+.wl_newsatiist_box span{
+    width: 39px;
+    height: 38px;
+    display: block;
+    position: absolute;
+    background: url("../images/bj07.png") no-repeat;
+    margin-top: -19px;
+    top: 50%;
+    cursor: pointer;
+}
+.wl_newsatiist_box .wl_newsatiist_lebt{
+    background-position: 0 0;
+    left: 128px;
+}
+.wl_newsatiist_box .wl_newsatiist_rebt{
+    background-position: 0 -38px;
+    right: 128px;
+}
+.wl_newsatiist_box .wl_newsatiist_lebt:hover{
+    background-position: 0 -76px;
+}
+.wl_newsatiist_box .wl_newsatiist_rebt:hover{
+    background-position: 0 -114px;
+}
+.wl_newsticfont{
+    overflow: hidden;
+    margin-top: 30px;
+}
+.wl_newsticfont p{
+    font-size: 14px;
+    line-height: 4;
+    color: #333333;
+}
+
+/*********************************集团新闻***********************************/
+.wl_newsbox{
+    overflow: hidden;
+    width:100%;
+    margin-top: 34px;
+}
+.newsboxleftcid{
+    width: 258px;
+    overflow: hidden;
+    float: left;
+    margin-right: 32px;
+}
+.newblcititl{
+    height: 34px;
+    border-bottom: 1px solid #0099e6;
+}
+.newblcititl h2{
+    font-size: 20px;
+    float: left;
+    border-bottom: 4px solid #0099e6;
+    height: 30px;
+}
+.newblcilist{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.newblcilist span{
+    height: 14px;
+    display: block;
+}
+.newblcilist .newblcititltop{
+    background: url("../images/news01.png") no-repeat;
+}
+.newblcilist .newblcititlbot{
+    background: url("../images/news02.png") no-repeat;
+}
+.newblcilist .newblcititlcen{
+    overflow: hidden;
+    background: url("../images/news03.png") repeat-y;
+    padding: 0 3px;
+}
+.newblcititlcen li{
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.newblcititlcen li a{
+    color: #333333;
+    font-size: 16px;
+    text-align: center;
+    height: 60px;
+    display: block;
+    border-bottom: 1px solid #d3d3d3;
+}
+.newblcititlcen .active{
+    background: #0099e6;
+}
+.newblcititlcen .active a{
+    color: #ffffff;
+}
+.newsboxrightcid{
+    width: 690px;
+    overflow: hidden;
+    float: left;
+}
+.newsrc_title{
+    height: 40px;
+    background: url("../images/news04.png") no-repeat;
+}
+.newsrc_title .newsr_tiss{
+    width: 22px;
+    height: 22px;
+    display: block;
+    float: left;
+    margin: 9px 6px 0 10px;
+    background: url("../images/news06.png") no-repeat;
+}
+.newsrc_title input{
+    width: 556px;
+    height: 38px;
+    float: left;
+    line-height:38px;
+    border: 0;
+    color: #999999;
+    font-size: 14px;
+    background: transparent;
+    outline: none;
+}
+.newsrc_title .newsr_tibtn{
+    width: 90px;
+    height: 40px;
+    display: block;
+    float: right;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    background: url("../images/news05.png") no-repeat;
+}
+.newsrc_cent{
+    height: 30px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.newsrc_cent span{
+    width: 5px;
+    height: 16px;
+    display: block;
+    float: left;
+    margin-top: 7px;
+    background: #1ea5e9;
+}
+.newsrc_cent h3{
+    float: left;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.newsrc_bot{
+    padding-left:10px;
+    overflow: hidden;
+}
+.newsrc_bot li{
+    width: 100%;
+    height: 20px;
+    margin-top: 23px;
+}
+.newsrc_bot li a{
+    color: #333333;
+    font-size: 14px;
+    line-height: 20px;
+}
+.newsrc_bot li a em{
+    width: 6px;
+    height: 5px;
+    display: block;
+    float: left;
+    margin: 8px 10px 0 0;
+    background: url("../images/bj02.png") 0 -5px no-repeat;
+}
+.newsrc_bot li a p{
+    float: left;
+}
+.newsrc_bot li a span{
+    float: right;
+    color: #999999;
+}
+.newsrc_bot li:hover a em{
+    background-position: 0 0;
+}
+.newsrc_bot li:hover a p{
+    color: #0099e6;
+}
+.newsrc_botmore{
+    display: block;
+    margin-top: 20px;
+    text-align: right;
+    font-size: 12px;
+    color: #999999;
+}
+.newsrpagelist{
+    height: 36px;
+    margin: 20px 0 70px 0;
+    text-align: center;
+}
+.newsrpagelist li{
+    width: 36px;
+    height: 34px;
+    display: inline-block;
+    text-align: center;
+    line-height: 34px;
+    border: 1px solid #e5e5e5;
+    margin-right: 10px;
+    *zoom: 1;
+    *display: inline;
+}
+.newsrpagelist li a{
+    color: #000;
+    font-size: 14px;
+}
+.newsrpagelist .active{
+    background: #0099e6;
+}
+.newsrpagelist .active a{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
